@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link href="./app/immutable/assets/2.aZuziSE3.css" rel="stylesheet">
+		<link rel="modulepreload" href="./app/immutable/entry/start.DQAndybE.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/entry.C9mn3kXY.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/scheduler.W2pu3yam.js">
+		<link rel="modulepreload" href="./app/immutable/entry/app.B55tf93J.js">
+		<link rel="modulepreload" href="./app/immutable/chunks/index.DMApaUjc.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/0.CXInXw9v.js">
+		<link rel="modulepreload" href="./app/immutable/nodes/2.DVHTeS8j.js">
+	</head>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+	</style>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <div class="app svelte-jp4tx2"><div class="login-box svelte-jp4tx2"><h2 data-svelte-h="svelte-ntz3qs">GlassHome QR Code Generator</h2> <label for="url" class="svelte-jp4tx2" data-svelte-h="svelte-1rv6l47">Home Assistant URL</label> <input id="url" type="text" placeholder="https://....." class="svelte-jp4tx2" value="">  <label for="url" class="svelte-jp4tx2">Long Lived API Token </label> <input id="token" type="text" placeholder="eyJ..." class="svelte-jp4tx2" value=""> <button class="svelte-jp4tx2" data-svelte-h="svelte-u8oike">Generate QR Code</button> </div> </div> 
+			
+			<script>
+				{
+					__sveltekit_1407d1v = {
+						base: new URL(".", location).pathname.slice(0, -1)
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./app/immutable/entry/start.DQAndybE.js"),
+						import("./app/immutable/entry/app.B55tf93J.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
