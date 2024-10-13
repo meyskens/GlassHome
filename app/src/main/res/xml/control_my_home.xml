@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- https://developers.google.com/glass/develop/gdk/reference/com/google/android/glass/app/VoiceTriggers.Command -->
+<trigger keyword="Control my home">
+    <input prompt="@string/glass_voice_prompt" />
+</trigger>

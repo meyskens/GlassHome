@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/control_home"
+        android:title="@string/control_my_home"
+        />
+    <item
+        android:id="@+id/sign_in"
+        android:title="@string/help_me_sign_in"
+        />
+    <item
+        android:id="@+id/stop_this"
+        android:title="@string/stop_this"
+        />
+</menu>
