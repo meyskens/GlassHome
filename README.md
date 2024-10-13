@@ -5,13 +5,13 @@ It is built on top of the built in Home Assistant "Assistant" API (the useful, n
 
 ## How to use it
 
-> Sadly Google killed the Glass project and Google Glass users are on their owm. if you do not understand the following instructions, you might want to consider not using Google Glass and hope for a better future.
+> Sadly Google killed the Glass project and Google Glass users are on their own. if you do not understand the following instructions, you might want to consider not using Google Glass and hope for a better future.
 
 1. Install the APK from the releases page using ADB
 2. "Okay Glass, control my home" to start the app
 3. Say some command, it will fail because you need to configure the app
 4. "Okay Glass, Help me sign in", you will now see a QR code scanner
-5. Generate a long lived access token from Home Assistant. Generate a QR code at (link soon) and scan it
+5. Generate a long lived access token from Home Assistant. Generate a QR code at [glasshome.maartje.dev](https://glasshome.maartje.dev/) and scan it
 6. You are now signed in and can control your devices using "Okay Glass, control my home"
 
 ## Demo
